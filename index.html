@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Victor Closs Duarte — Software Developer, Computer Science student. I build systems and simple, affordable websites for small businesses." />
+  <title>Victor Closs Duarte</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ─── NAV ─── -->
+  <nav class="nav" aria-label="Main navigation">
+    <a href="#inicio" class="nav__logo">VCD</a>
+    <ul class="nav__links" role="list">
+      <li><a href="#sobre"      data-i18n="nav.sobre"></a></li>
+      <li><a href="#experiencia" data-i18n="nav.experiencia"></a></li>
+      <li><a href="#projetos"   data-i18n="nav.projetos"></a></li>
+      <li><a href="#negocios"   class="nav__cta" data-i18n="nav.negocios"></a></li>
+    </ul>
+
+    <div class="nav__right">
+      <button class="lang-toggle" id="langToggle" aria-label="Switch language">
+        <span class="lang-toggle__opt" data-lang="en">EN</span>
+        <span class="lang-toggle__sep">|</span>
+        <span class="lang-toggle__opt" data-lang="sv">SV</span>
+      </button>
+      <button class="nav__burger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <div class="nav__mobile-menu" aria-hidden="true">
+    <div class="nav__mobile-lang">
+      <button class="lang-toggle lang-toggle--mobile" id="langToggleMobile" aria-label="Switch language">
+        <span class="lang-toggle__opt" data-lang="en">EN</span>
+        <span class="lang-toggle__sep">|</span>
+        <span class="lang-toggle__opt" data-lang="sv">SV</span>
+      </button>
+    </div>
+    <ul role="list">
+      <li><a href="#sobre"       data-i18n="nav.sobre"></a></li>
+      <li><a href="#experiencia" data-i18n="nav.experiencia"></a></li>
+      <li><a href="#projetos"    data-i18n="nav.projetos"></a></li>
+      <li><a href="#negocios"    data-i18n="nav.negocios"></a></li>
+      <li><a href="#contato"     data-i18n="nav.contato"></a></li>
+    </ul>
+  </div>
+
+  <main>
+
+    <!-- ─── HERO ─── -->
+    <section class="hero" id="inicio">
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <p class="label reveal" data-i18n="hero.label"></p>
+          <h1 class="hero__name reveal">Victor Closs<br/><em>Duarte</em></h1>
+          <p class="hero__tagline reveal" data-i18n-multiline="hero.tagline"></p>
+          <div class="hero__actions reveal">
+            <a href="#contato" class="btn btn--primary" data-i18n="hero.btn.contact"></a>
+            <a href="#projetos" class="btn btn--ghost"  data-i18n="hero.btn.projects"></a>
+          </div>
+        </div>
+        <div class="hero__graphic" aria-hidden="true">
+          <svg class="hero__svg" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="200" cy="200" r="180" stroke="var(--mist)" stroke-width="1.5"/>
+            <circle cx="200" cy="200" r="120" stroke="var(--mist)" stroke-width="1"/>
+            <circle cx="200" cy="200" r="60"  stroke="var(--accent)" stroke-width="1.5" opacity="0.6"/>
+            <line x1="20" y1="200" x2="380" y2="200" stroke="var(--mist)" stroke-width="1"/>
+            <line x1="200" y1="20"  x2="200" y2="380" stroke="var(--mist)" stroke-width="1"/>
+            <circle cx="200" cy="80"  r="4" fill="var(--accent)"/>
+            <circle cx="320" cy="200" r="4" fill="var(--steel)"/>
+            <circle cx="200" cy="320" r="4" fill="var(--ink)"/>
+          </svg>
+        </div>
+      </div>
+      <div class="hero__scroll-hint" aria-hidden="true">
+        <span class="label">scroll</span>
+        <div class="hero__scroll-line"></div>
+      </div>
+    </section>
+
+    <!-- ─── SOBRE ─── -->
+    <section class="section sobre" id="sobre">
+      <div class="container">
+        <div class="section__header reveal">
+          <p class="label" data-i18n="sobre.label"></p>
+          <h2 class="section__title" data-i18n="sobre.title"></h2>
+        </div>
+        <div class="sobre__grid">
+          <div class="sobre__text reveal">
+            <p data-i18n="sobre.p1"></p>
+            <p data-i18n="sobre.p2"></p>
+            <p data-i18n="sobre.p3"></p>
+          </div>
+          <div class="sobre__facts reveal">
+            <div class="fact">
+              <p class="label" data-i18n="sobre.fact.formation.label"></p>
+              <p data-i18n="sobre.fact.formation.val"></p>
+            </div>
+            <div class="fact">
+              <p class="label" data-i18n="sobre.fact.base.label"></p>
+              <p data-i18n="sobre.fact.base.val"></p>
+            </div>
+            <div class="fact">
+              <p class="label" data-i18n="sobre.fact.focus.label"></p>
+              <p data-i18n="sobre.fact.focus.val"></p>
+            </div>
+            <div class="fact">
+              <p class="label" data-i18n="sobre.fact.stack.label"></p>
+              <p data-i18n="sobre.fact.stack.val"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── EXPERIÊNCIA ─── -->
+    <section class="section experiencia" id="experiencia">
+      <div class="container">
+        <div class="section__header reveal">
+          <p class="label" data-i18n="exp.label"></p>
+          <h2 class="section__title" data-i18n="exp.title"></h2>
+        </div>
+        <div class="timeline">
+          <div class="timeline__entry reveal">
+            <div class="timeline__meta">
+              <p class="label" data-i18n="exp.date"></p>
+            </div>
+            <div class="timeline__card">
+              <div class="timeline__card-header">
+                <h3 data-i18n="exp.role"></h3>
+                <span class="timeline__company" data-i18n="exp.company"></span>
+              </div>
+              <ul class="timeline__list">
+                <li data-i18n="exp.li1"></li>
+                <li data-i18n="exp.li2"></li>
+                <li data-i18n="exp.li3"></li>
+                <li data-i18n="exp.li4"></li>
+                <li data-i18n="exp.li5"></li>
+              </ul>
+              <div class="timeline__stack">
+                <span class="tag">Python</span>
+                <span class="tag">Dash</span>
+                <span class="tag">PostgreSQL</span>
+                <span class="tag">RTSP/HLS</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── PROJETOS ─── -->
+    <section class="section projetos" id="projetos">
+      <div class="container">
+        <div class="section__header reveal">
+          <p class="label" data-i18n="proj.label"></p>
+          <h2 class="section__title" data-i18n="proj.title"></h2>
+        </div>
+        <div class="projetos__grid">
+
+          <article class="projeto-card reveal">
+            <div class="projeto-card__header">
+              <p class="label" data-i18n="proj.intui.label"></p>
+              <h3 data-i18n="proj.intui.title"></h3>
+            </div>
+            <p class="projeto-card__desc" data-i18n="proj.intui.desc"></p>
+            <div class="projeto-card__stack">
+              <span class="tag">Python</span>
+              <span class="tag">Google Gemini</span>
+              <span class="tag">WhatsApp API</span>
+              <span class="tag">NFS-e</span>
+            </div>
+          </article>
+
+          <article class="projeto-card reveal">
+            <div class="projeto-card__header">
+              <p class="label" data-i18n="proj.ceap.label"></p>
+              <h3 data-i18n="proj.ceap.title"></h3>
+            </div>
+            <p class="projeto-card__desc" data-i18n="proj.ceap.desc"></p>
+            <div class="projeto-card__stack">
+              <span class="tag">Python</span>
+              <span class="tag">Power BI</span>
+              <span class="tag">CRISP-DM</span>
+              <span class="tag">ETL</span>
+            </div>
+          </article>
+
+          <article class="projeto-card reveal">
+            <div class="projeto-card__header">
+              <p class="label" data-i18n="proj.medquiz.label"></p>
+              <h3 data-i18n="proj.medquiz.title"></h3>
+            </div>
+            <p class="projeto-card__desc" data-i18n="proj.medquiz.desc"></p>
+            <div class="projeto-card__stack">
+              <span class="tag">Figma</span>
+              <span class="tag">Scrum</span>
+              <span class="tag">Software Engineering</span>
+            </div>
+          </article>
+
+          <article class="projeto-card reveal">
+            <div class="projeto-card__header">
+              <p class="label" data-i18n="proj.java.label"></p>
+              <h3 data-i18n="proj.java.title"></h3>
+            </div>
+            <p class="projeto-card__desc" data-i18n="proj.java.desc"></p>
+            <div class="projeto-card__stack">
+              <span class="tag">Java</span>
+              <span class="tag">Spring Boot</span>
+              <span class="tag">JUnit</span>
+              <span class="tag">Clean Architecture</span>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── SERVICES ─── -->
+    <section class="section negocios" id="negocios">
+      <div class="container">
+        <div class="negocios__inner reveal">
+          <div class="negocios__text">
+            <p class="label" data-i18n="neg.label"></p>
+            <h2 class="section__title" data-i18n="neg.title"></h2>
+            <p data-i18n="neg.intro"></p>
+
+            <div class="negocios__steps">
+              <div class="step">
+                <span class="step__num">1</span>
+                <p data-i18n="neg.step1"></p>
+              </div>
+              <div class="step">
+                <span class="step__num">2</span>
+                <p data-i18n="neg.step2"></p>
+              </div>
+              <div class="step">
+                <span class="step__num">3</span>
+                <p data-i18n="neg.step3"></p>
+              </div>
+            </div>
+
+            <div class="negocios__includes">
+              <p class="label" data-i18n="neg.includes.label"></p>
+              <ul>
+                <li data-i18n="neg.inc1"></li>
+                <li data-i18n="neg.inc2"></li>
+                <li data-i18n="neg.inc3"></li>
+              </ul>
+            </div>
+
+            <a href="https://wa.me/5548991480734?text=Ol%C3%A1%20Victor%2C%20tenho%20interesse%20em%20um%20site%20para%20meu%20neg%C3%B3cio!"
+               class="btn btn--primary" target="_blank" rel="noopener"
+               data-i18n="neg.btn"></a>
+          </div>
+          <div class="negocios__visual" aria-hidden="true">
+            <div class="negocios__card-mock">
+              <div class="mock__bar">
+                <span></span><span></span><span></span>
+              </div>
+              <div class="mock__content">
+                <div class="mock__logo-area"></div>
+                <div class="mock__line mock__line--wide"></div>
+                <div class="mock__line"></div>
+                <div class="mock__line mock__line--short"></div>
+                <div class="mock__btn-mock"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── CONTACT ─── -->
+    <section class="section contato" id="contato">
+      <div class="container">
+        <div class="contato__inner reveal">
+          <p class="label" data-i18n="contact.label"></p>
+          <h2 class="section__title" data-i18n="contact.title"></h2>
+          <div class="contato__links">
+            <a href="https://wa.me/5548991480734" class="contato__link" target="_blank" rel="noopener" aria-label="WhatsApp">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.122 1.532 5.857L.054 23.678a.5.5 0 00.61.638l5.9-1.476A11.954 11.954 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22a9.956 9.956 0 01-5.119-1.413l-.362-.215-3.742.936.991-3.65-.235-.374A9.974 9.974 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+              <span data-i18n="contact.wa"></span>
+            </a>
+            <a href="mailto:victor_closs@icloud.com" class="contato__link" aria-label="Email">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 7L2 7"/></svg>
+              <span data-i18n="contact.email"></span>
+            </a>
+            <a href="https://linkedin.com/in/victorclossduarte" class="contato__link" target="_blank" rel="noopener" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+              <span data-i18n="contact.li"></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ─── FOOTER ─── -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p data-i18n="footer.copy"></p>
+      <p class="footer__sub" data-i18n="footer.sub"></p>
+    </div>
+  </footer>
+
+  <!-- ─── TIMELINE DOT (signature element) ─── -->
+  <div class="timeline-dot" aria-hidden="true"></div>
+
+  <script src="translations.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
