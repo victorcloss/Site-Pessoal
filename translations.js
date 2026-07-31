@@ -40,8 +40,6 @@ const TRANSLATIONS = {
     'record.role.val':      'Software Developer',
     'record.location.key':  'location',
     'record.location.val':  'Uppsala, SE  ↔  Porto Alegre, BR',
-    'record.active.key':    'active',
-    'record.active.val':    'Apr 2025 — present',
     'record.stack.key':     'stack',
     'record.stack.val':     'Python · Java · SQL · React',
     'record.lang.key':      'lang',
@@ -49,8 +47,8 @@ const TRANSLATIONS = {
 
     /* ── ABOUT ── */
     'about.label': 'About',
-    'about.p1': 'I\'m Victor, a Computer Science student who\'d rather ship something people actually use than optimize for a resume line. Over the past year I\'ve built real-time monitoring dashboards for industrial clients in Brazil, co-founded a SaaS that automates tax paperwork over WhatsApp, and now run my own freelance web development practice for small business owners in Sweden, where I\'m on exchange at Uppsala University.',
-    'about.p2': 'I like the unglamorous parts of engineering: turning a 3,000-line script into something a team can actually maintain, or turning a client\'s vague idea into a working site. Right now I\'m splitting my coursework between systems (operating systems, networks, parallel programming) and human-centered design — because the engineers I\'ve learned the most from cared as much about the person using the software as the code running it.',
+    'about.p1': 'I\'m Victor, a Computer Science student on exchange at Uppsala University from PUCRS in Brazil. Over the past year I\'ve built real-time monitoring dashboards for industrial clients, co-founded a SaaS that automates tax paperwork over WhatsApp, and run a freelance web development practice for small businesses in Uppsala.',
+    'about.p2': 'My work spans data engineering and web development — Python, Dash, and PostgreSQL on the backend; React, Node.js, and CSS on the frontend. I\'m comfortable writing the pipeline that feeds the data and the interface that displays it.',
 
     /* ── EXPERIENCE — THEIA ── */
     'exp.label':          'Experience',
@@ -65,10 +63,6 @@ const TRANSLATIONS = {
     'exp.intui.role': 'Co-founder & Developer',
     'exp.intui.li1':  'Co-built a SaaS platform that automates the generation of Brazilian NFS-e tax invoices directly through WhatsApp, cutting a manual paperwork step for small business owners.',
     'exp.intui.li2':  'Owned both the technical build and the product calls as a two-person team — architecture decisions and what the customer actually needed.',
-
-    /* ── EXPERIENCE — MEDQUIZ ── */
-    'exp.medquiz.role': 'Developer',
-    'exp.medquiz.li1':  'Developer on a Scrum team building a gamified medical education platform — shipped features sprint over sprint alongside product and design.',
 
     /* ── FREELANCE ── */
     'freelance.label':    'Freelance',
@@ -165,8 +159,6 @@ const TRANSLATIONS = {
     'record.role.val':      'Desenvolvedor de Software',
     'record.location.key':  'local',
     'record.location.val':  'Uppsala, SE  ↔  Porto Alegre, BR',
-    'record.active.key':    'ativo',
-    'record.active.val':    'abr 2025 — presente',
     'record.stack.key':     'stack',
     'record.stack.val':     'Python · Java · SQL · React',
     'record.lang.key':      'idiomas',
@@ -174,8 +166,8 @@ const TRANSLATIONS = {
 
     /* ── ABOUT ── */
     'about.label': 'Sobre',
-    'about.p1': 'Sou Victor, estudante de Ciência da Computação que prefere entregar algo que as pessoas realmente usam a otimizar uma linha de currículo. No último ano, construí dashboards de monitoramento em tempo real para clientes industriais no Brasil, cofundei um SaaS que automatiza burocracia fiscal pelo WhatsApp e agora tenho minha própria prática freelance de desenvolvimento web para pequenos negócios na Suécia, onde estou em intercâmbio na Universidade de Uppsala.',
-    'about.p2': 'Gosto das partes sem glamour da engenharia: transformar um script de 3.000 linhas em algo que um time consegue manter, ou transformar a ideia vaga de um cliente em um site funcional. No momento, estou dividindo meu currículo entre sistemas (sistemas operacionais, redes, programação paralela) e design centrado no humano — porque os engenheiros com quem mais aprendi se importavam tanto com a pessoa que usa o software quanto com o código que o faz rodar.',
+    'about.p1': 'Sou Victor, estudante de Ciência da Computação em intercâmbio na Universidade de Uppsala, vindo da PUCRS no Brasil. No último ano, construí dashboards de monitoramento em tempo real para clientes industriais, cofundei um SaaS que automatiza burocracia fiscal pelo WhatsApp e mantenho uma prática freelance de desenvolvimento web para pequenos negócios em Uppsala.',
+    'about.p2': 'Meu trabalho cobre engenharia de dados e desenvolvimento web — Python, Dash e PostgreSQL no backend; React, Node.js e CSS no frontend. Estou confortável tanto escrevendo o pipeline que alimenta os dados quanto a interface que os exibe.',
 
     /* ── EXPERIENCE — THEIA ── */
     'exp.label':          'Experiência',
@@ -190,10 +182,6 @@ const TRANSLATIONS = {
     'exp.intui.role': 'Cofundador & Desenvolvedor',
     'exp.intui.li1':  'Co-construí uma plataforma SaaS que automatiza a geração de NFS-e diretamente pelo WhatsApp, eliminando uma etapa burocrática manual para pequenos empreendedores.',
     'exp.intui.li2':  'Fui responsável pela construção técnica e pelas decisões de produto como equipe de duas pessoas — arquitetura e o que o cliente realmente precisava.',
-
-    /* ── EXPERIENCE — MEDQUIZ ── */
-    'exp.medquiz.role': 'Desenvolvedor',
-    'exp.medquiz.li1':  'Desenvolvedor em um time Scrum construindo uma plataforma gamificada de educação médica — entreguei features sprint após sprint ao lado de produto e design.',
 
     /* ── FREELANCE ── */
     'freelance.label':    'Freelance',
@@ -290,8 +278,6 @@ const TRANSLATIONS = {
     'record.role.val':      'Mjukvaruutvecklare',
     'record.location.key':  'plats',
     'record.location.val':  'Uppsala, SE  ↔  Porto Alegre, BR',
-    'record.active.key':    'aktiv',
-    'record.active.val':    'apr 2025 — nu',
     'record.stack.key':     'stack',
     'record.stack.val':     'Python · Java · SQL · React',
     'record.lang.key':      'språk',
@@ -299,8 +285,8 @@ const TRANSLATIONS = {
 
     /* ── ABOUT ── */
     'about.label': 'Om mig',
-    'about.p1': 'Jag är Victor, en datastudent som hellre levererar något folk faktiskt använder än optimerar en CV-rad. Det senaste året har jag byggt realtidsdashboards för industriella kunder i Brasilien, medgrundade ett SaaS som automatiserar skattebyråkrati via WhatsApp, och driver nu en egen frilanspraktik inom webbutveckling för småföretagare i Sverige, där jag studerar på utbyte vid Uppsala universitet.',
-    'about.p2': 'Jag gillar de oglamourösa delarna av ingenjörsarbete: att förvandla ett 3 000-radigt skript till något ett team faktiskt kan underhålla, eller att göra en kunds vaga idé till en fungerande webbplats. Just nu delar jag mina kurser mellan system (operativsystem, nätverk, parallellprogrammering) och användarcentrerad design — för de ingenjörer jag lärt mig mest av brydde sig lika mycket om personen som använder mjukvaran som om koden som driver den.',
+    'about.p1': 'Jag är Victor, en datastudent på utbyte vid Uppsala universitet från PUCRS i Brasilien. Det senaste året har jag byggt realtidsdashboards för industriella kunder, medgrundade ett SaaS som automatiserar skattebyråkrati via WhatsApp, och driver en frilanspraktik inom webbutveckling för småföretag i Uppsala.',
+    'about.p2': 'Mitt arbete spänner över datateknik och webbutveckling — Python, Dash och PostgreSQL på backendsidan; React, Node.js och CSS på frontendsidan. Jag är bekväm med att skriva pipelinen som matar data och gränssnittet som visar det.',
 
     /* ── EXPERIENCE — THEIA ── */
     'exp.label':          'Erfarenhet',
@@ -315,10 +301,6 @@ const TRANSLATIONS = {
     'exp.intui.role': 'Medgrundare & Utvecklare',
     'exp.intui.li1':  'Medbyggde en SaaS-plattform som automatiserar generering av brasilianska NFS-e-fakturor direkt via WhatsApp, och eliminerade ett manuellt pappersarbetssteg för småföretagare.',
     'exp.intui.li2':  'Ansvarade för både den tekniska byggnaden och produktbesluten som ett tvåpersonsteam — arkitektur och vad kunden faktiskt behövde.',
-
-    /* ── EXPERIENCE — MEDQUIZ ── */
-    'exp.medquiz.role': 'Utvecklare',
-    'exp.medquiz.li1':  'Utvecklare i ett Scrum-team som byggde en spelifierad plattform för medicinsk utbildning — levererade funktioner sprint för sprint tillsammans med produkt och design.',
 
     /* ── FREELANCE ── */
     'freelance.label':    'Frilans',
