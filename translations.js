@@ -28,6 +28,7 @@ const TRANSLATIONS = {
     'sidebar.langs.title': 'Languages',
     'sidebar.lang.pt': 'Portuguese — Native',
     'sidebar.lang.en': 'English — Fluent',
+    'sidebar.lang.es': 'Spanish — Intermediate',
     'sidebar.lang.sv': 'Swedish — Basic',
 
     /* ── HERO ── */
@@ -44,12 +45,12 @@ const TRANSLATIONS = {
     'record.stack.key':     'stack',
     'record.stack.val':     'Python · Java · SQL · React',
     'record.lang.key':      'lang',
-    'record.lang.val':      'pt_BR · en_US · sv_SE',
+    'record.lang.val':      'pt_BR · en_US · es_ES · sv_SE',
 
     /* ── ABOUT ── */
     'about.label': 'About',
-    'about.p1': 'At THEIA Sistemas, I built industrial monitoring dashboards in Python — systems now used daily by Agrosul and Vibra to track production in real time. I also refactored a ~3,000-line monolithic codebase into a modular component architecture. That was an internship.',
-    'about.p2': 'Now I\'m in my fourth semester of CS at PUCRS, on exchange at Uppsala University in Sweden, and running a freelance web practice on the side — building websites for local businesses with paying clients.',
+    'about.p1': 'I\'m in my fourth semester of CS at PUCRS, on exchange at Uppsala University in Sweden, and running a freelance web practice on the side, building websites for local businesses with paying clients.',
+    'about.p2': 'At my last job, I built industrial monitoring dashboards in Python — systems now used daily by Agrosul and Vibra to track production in real time. I also refactored a ~3,000-line monolithic codebase into a modular component architecture. That was an internship.',
     'about.p3': 'My work sits at the intersection of data engineering (pipelines, PostgreSQL, real-time systems) and web development (React, Node.js, CSS). I care about clean architecture and code other people can maintain.',
 
     /* ── EXPERIENCE ── */
@@ -133,6 +134,7 @@ const TRANSLATIONS = {
     'sidebar.langs.title': 'Språk',
     'sidebar.lang.pt': 'Portugisiska — Modersmål',
     'sidebar.lang.en': 'Engelska — Flytande',
+    'sidebar.lang.es': 'Spanska — Mellanliggande',
     'sidebar.lang.sv': 'Svenska — Grundläggande',
 
     /* ── HERO ── */
