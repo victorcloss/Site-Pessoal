@@ -87,7 +87,7 @@ revealEls.forEach(el => observer.observe(el));
 
 /* ─── SIGNATURE DOT ─── */
 const dot      = document.querySelector('.timeline-dot');
-const sections = Array.from(document.querySelectorAll('section[id]'));
+const sections = Array.from(document.querySelectorAll('section[id], .cv-section[id]'));
 
 function updateDot() {
   const mid = window.innerHeight / 2;
