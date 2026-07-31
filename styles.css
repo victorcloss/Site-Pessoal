@@ -708,6 +708,35 @@ button { cursor: pointer; border: none; background: none; font: inherit; color: 
 .freelance-entry__cta:hover { color: var(--void); gap: 0.5rem; }
 .freelance-entry__cta:focus-visible { outline: 2px solid var(--nord); border-radius: 2px; }
 
+/* ── Separator between multiple exp entries ── */
+.exp-entry + .exp-entry {
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--border);
+}
+
+/* ── Soft skills ── */
+.soft-skills {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem 2.5rem;
+}
+
+.soft-skill dt {
+  font-family: var(--font-serif);
+  font-size: 0.95rem;
+  font-weight: 400;
+  font-style: italic;
+  color: var(--void);
+  margin-bottom: 0.3rem;
+}
+
+.soft-skill dd {
+  font-size: 0.85rem;
+  color: var(--muted);
+  line-height: 1.72;
+}
+
 /* ── Projects grid ── */
 .proj-grid {
   display: grid;
@@ -870,6 +899,8 @@ button { cursor: pointer; border: none; background: none; font: inherit; color: 
   .exp-entry__header { flex-direction: column; gap: 0.25rem; }
   .freelance-entry__header { flex-direction: column; gap: 0.35rem; }
   .freelance-entry__footer { flex-direction: column; align-items: flex-start; }
+
+  .soft-skills { grid-template-columns: 1fr; }
 
   .contact-grid { flex-direction: column; }
   .contact-card { width: fit-content; }
